@@ -726,7 +726,7 @@ function whenAllLoaded(gameDiv, popup, stickyNodes) {
                 bgmusic = document.createElement('audio');
                 bgmusic.id = 'khbgmusic';
                 bgmusic.loop = 'loop';
-                bgmusic.src = 'http://kathack.com/js/katamari.mp3';
+                bgmusic.src = 'https://raw.githack.com/ant-7802/files/main/katamari.mp3?raw=true';
                 gameDiv.appendChild(bgmusic);
             }
             bgmusic.play();
@@ -760,7 +760,7 @@ font-size:13px;\
 text-align:left;\
 z-index:501;';
     d.innerHTML = '<h1 style="font-size:16pt">\
-<a href="http://kathack.com/" style="color:blue;text-decoration:none;">\
+<a href="https://kathack.com/" style="color:blue;text-decoration:none;">\
 Katamari!</a></h1>\
 <button style="position:absolute;top:0;right:0;">X</button>\
 <p>Controls: Hold down <b><select id="mouseb">\
